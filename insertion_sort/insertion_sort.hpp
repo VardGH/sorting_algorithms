@@ -14,7 +14,7 @@ void insertion_sort(std::vector<T>& vec)
             vec[j + 1] = vec[j];
             --j;
         }
-        std::swap(key, vec[j + 1]);
+        vec[j + 1] = k;
     }
 }
 
